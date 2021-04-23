@@ -1,0 +1,1 @@
+This is a python made website blocker application, you can change the code to what you would like, but i made it to help people with a p00rn addiction, i am going to be adding much more later on like site's and such but yeah thnkU!
