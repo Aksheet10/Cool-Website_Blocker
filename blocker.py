@@ -17,7 +17,7 @@ while True:
                 else:
                     file.write(redirect+" "+website+"\n")
 
-                    else:
+                    if:
                         print("Time to do something good :D")
                         with open(hosts_path, "r+") as file:
                             content - file.readlines()
