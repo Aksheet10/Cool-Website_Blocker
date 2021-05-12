@@ -11,12 +11,11 @@ while True:
         print("No dude you can't do this")
         with open(hosts_path, "r+") as file:
             content = file.read()
-            for webstie in web_sites_lists:
+            for website in web_sites_lists:
                 if website in content:
                     pass
                 else:
                     file.write(redirect+" "+website+"\n")
-
                     else:
                         print("Time to do something good :D")
                         with open(hosts_path, "r+") as file:
@@ -26,7 +25,6 @@ while True:
                                 #it took me a while to learn this part 
                                 if not any(website in line for website in web_sites_list):
                                     file.write(line)
-                                    
                                     file.truncate() #this is delete lines (mainly dns)
                                     time.sleep(5)
                                     
